@@ -1,0 +1,15 @@
+print("Please answer the following questions")
+print("")
+
+adjective1 = input("enter an adjective:")
+nationality1 = input("enter a nationality:")
+person1 = input("enter a person:")
+adjective2 = ("enter an adjective:")
+food1 = input("enter a food:")
+
+
+print("")
+print("here is your madlib")
+print("")
+print("there was a man called" ,person1, "who was" ,adjective1, "and" ,
+nationality1, "he was very good at making food and his favourite to make was" ,food1,)

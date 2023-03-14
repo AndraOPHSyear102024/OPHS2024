@@ -1,0 +1,11 @@
+food = "kebab" 
+
+if food == "kebab":
+  print("mmmm, my favourite!")
+  print("")
+  print("i feel like saying it a 100 times...")
+  print("")
+  print(100 * (food + "!"))
+  
+else: 
+  print("im hungry")

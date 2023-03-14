@@ -1,0 +1,53 @@
+#04 SELECTION challenges02
+number = int(input("enter a number under 20:"))
+
+if number >= 20:
+  print("too high")
+  
+else:
+  print("thank you")
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

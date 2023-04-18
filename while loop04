@@ -1,0 +1,6 @@
+while answerOK == False:
+  answer = input("exit? y or n:").upper()
+  if answer == "y":
+    answerOK = True
+    
+exit(sys)

@@ -1,0 +1,4 @@
+for holdingNumsFromRange in range(5, 20, 3):
+  print("this for loop will display", holdingNumsFromRange)
+
+#range has start, stop and set

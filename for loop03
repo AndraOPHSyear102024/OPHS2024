@@ -1,0 +1,2 @@
+for holdingNumsFromRange in range(27):
+  print("this for loop will display", holdingNumsFromRange)

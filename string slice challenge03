@@ -1,0 +1,5 @@
+fn = str(input("enter first name:"))
+ln = str(input("enter last name:"))
+
+name = fn + " " + ln
+print(name)

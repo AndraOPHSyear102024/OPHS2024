@@ -1,0 +1,8 @@
+nr = str(input("enter the first line of a nursery rhyme:"))
+
+print("this has", len(nr), "letters in it")
+print("")
+sn = int(input("enter a starting number:"))
+en = int(input("enter a ending number:"))
+
+print(nr[sn:en])

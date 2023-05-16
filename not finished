@@ -1,0 +1,15 @@
+import random
+
+num = random.randint(1,5)
+
+num1 = int(input("enter a number:"))
+
+if num == num1:
+  print("well done")
+  
+if num != num1:
+  print("bad luck! try again")
+  num3 = print(int(input("enter a another number:")))
+  
+if num3 == num1
+  

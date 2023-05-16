@@ -1,0 +1,11 @@
+import random
+
+coin = ["tails", "heads"]
+coin1 = random.choice(coin)
+
+coin2 = str(input("heads or tails?"))
+if coin1 == coin2:
+  print("you win")
+  
+else:
+  print("bad luck") 

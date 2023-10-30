@@ -1,0 +1,16 @@
+#main program
+speed = int(input("enter speed of driver:"))
+if speed >= 75:
+  print("issue fine")
+elif speed >= 70 and 75:
+    print("warning")
+else:
+  print("no action")
+  
+#sub program
+
+def driver_speed(speed):
+  if speed >= 70:
+   return True
+  else:
+    return False 

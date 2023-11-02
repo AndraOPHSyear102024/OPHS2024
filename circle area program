@@ -1,0 +1,18 @@
+#circle properties program
+
+#subprogram
+def circle_area(diameter):
+  radius = diameter/2
+  area = 3.14 * (radius * radius)
+  return area
+
+def circle_circumference(diameter):
+  circumference = 3.14 * diameter
+  return circumference
+
+#mainprogram
+diameter = float(input("enter diameter:"))
+area = circle_area(diameter)
+circumference = circle_circumference(diameter)
+print("area:", area)
+print("circumeferce", circumference)

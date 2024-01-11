@@ -1,0 +1,6 @@
+name = str(input("input your name:"))
+age = int(input("input your age:"))
+
+birthday = age + 1
+
+print(name, "on your next birthday you will be", birthday)

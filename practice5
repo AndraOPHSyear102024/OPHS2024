@@ -1,0 +1,6 @@
+dinner = int(input("how many diners were there?:"))
+bill = float(input("what was the total bill?:"))
+
+charge = bill / dinner
+
+print("each person must pay" ,charge)

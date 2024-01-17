@@ -1,0 +1,13 @@
+file = open("quick.txt","r")
+print(file.readline(7))
+
+file = open("quick.txt","r")
+for line in file:
+  print(line)
+
+file = open("quick.txt","r")
+for line in file:
+  print(line.strip())
+
+file = open("quick.txt","r")
+quicklist = file.readlines()
